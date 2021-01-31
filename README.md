@@ -73,6 +73,7 @@ Essa sessão irá adicionar comandos ao seu bash que irão ajudar durante o seu 
 
     curl -L "https://raw.githubusercontent.com/nielsonsantana/django-docker-compose-base-project/main/extra/bash-utils.sh" -o /home/$USER/bash-utils.sh
     echo -e "\nsource ./bash-utils.sh" >> ~/.bashrc
+    source ~/.bashrc
 
 Os comandos que serão adicionados:
 
