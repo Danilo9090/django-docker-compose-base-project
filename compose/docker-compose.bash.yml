@@ -1,0 +1,8 @@
+version: "3.3"
+   
+services:
+  appcode:
+    build: .
+    command: bash -c 'make clean && pip install -r requirements/develop.txt >/dev/null && bash'
+    volumes:
+      - .:/app

@@ -1,0 +1,4 @@
+# Dependências gerais para develop, production e test
+
+django>3.0,<3.2
+psycopg2-binary>=2.8,<2.9
