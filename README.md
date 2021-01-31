@@ -96,7 +96,7 @@ ou com atalho
 
 ### Criar projeto em django
 
-    docker-compose run web django-admin startproject <nomeseuprojeto> .
+    docker-compose run web django-admin startproject nomedoseuprojeto .
 
 Execute esse comando para tornar os arquivos criados dentro do container
 
