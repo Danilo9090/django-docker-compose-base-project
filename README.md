@@ -1,9 +1,20 @@
 # Base docker compose project
 
 O projeto poderá ser usado como base para a criação de projetos que usem docker.
-A documentação 
+A documentação está destinada a sistemas operacionais linux derivados do debian como o Ubuntu.
 
 ## Requisitos iniciais
+
+### Baixar o projeto em sua máquina
+
+    git clone git@github.com:nielsonsantana/django-docker-compose-base-project.git
+
+Se não tiver o git instalado em sua máquina, instale com o comando:
+
+    sudo apt-get install git
+
+Para os primeiros passos no git e github acesse: https://balta.io/blog/git-github-primeiros-passos#requisitos
+
 
 ### Instalação do docker
 
